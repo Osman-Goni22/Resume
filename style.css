@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .upper-head{
     width: 50%;
     margin: 0 auto;
@@ -19,6 +24,11 @@
     
 }
 
+nav{
+    position: sticky;
+    top:0;
+}
+
 nav ul li{
     list-style-type: none;
     
@@ -37,3 +47,157 @@ nav li a{
     font-weight: 700;
 }
 
+.about{
+    box-sizing: border-box;
+    padding-left: 30px;
+
+}
+
+.about p{
+    
+    text-align: justify;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.skill{
+    box-sizing: border-box; 
+    padding-left: 30px;
+}
+
+.skill h1{
+  
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.skill ul{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.skill ul li{
+  list-style-type: none;
+  font-weight: 500px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: lightgray;
+  border-left: 10px solid black;
+}
+
+.experience{
+    box-sizing: border-box; 
+    padding-left: 30px;
+}
+
+.experience h1{
+    
+    
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.experience ul{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.experience ul li{
+  list-style-type: none;
+  font-weight: 500px;
+  font-size: 17px;
+  padding: 15px;
+  background-color: lightgray;
+  border-left: 10px solid black;
+}
+
+.experience ul li span{
+    font-size: 20px;font-weight: bold;
+}
+
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+
+table tr th{
+    background-color:lightgray ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education {
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+table td,th{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.awards {
+    padding-left: 30px;
+    margin-top: 40px;
+}
+.awards ul{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.awards h1{
+    margin-bottom: 10px;
+}
+.education h1{
+    margin-bottom: 10px;
+}
+.awards h1{
+    margin-bottom: 10px;
+}
+
+.awards ul li{
+  list-style-type: none;
+  font-weight: 500px;
+  font-size: 17px;
+  padding: 15px;
+
+  background-color: lightgray;
+  border-left: 10px solid black;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 10px;
+}
+
+form{
+    width: 90%;
+    margin:30px auto;
+}
+
+button{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
