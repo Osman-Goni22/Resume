@@ -88,6 +88,35 @@ nav li a{
   background-color: lightgray;
   border-left: 10px solid black;
 }
+.project{
+    box-sizing: border-box; 
+    padding-left: 30px;
+}
+
+.project h1{
+  
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.project ul{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.project ul li{
+  list-style-type: none;
+  font-weight: 500px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: lightgray;
+  border-left: 10px solid black;
+}
+
+.project li a{
+    text-decoration: none;
+}
 
 .experience{
     box-sizing: border-box; 
