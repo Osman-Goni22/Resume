@@ -231,3 +231,10 @@ button{
     background-color: darkgreen;
     border-radius: 10px;
 }
+
+
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    padding: 50px 0px;
+}
